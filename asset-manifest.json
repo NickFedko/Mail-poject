@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Mail-project/static/css/main.799b3d6b.css",
+    "main.js": "/Mail-project/static/js/main.eb569566.js",
+    "static/js/787.1493a40f.chunk.js": "/Mail-project/static/js/787.1493a40f.chunk.js",
+    "static/media/mail-Image.svg": "/Mail-project/static/media/mail-Image.ddb62bc024d936794905654db107d712.svg",
+    "static/media/address-image.svg": "/Mail-project/static/media/address-image.7319e74e18f977d9f6152bfce3afca71.svg",
+    "static/media/courier-image.svg": "/Mail-project/static/media/courier-image.954a71166d1f868a8c85e9079c81c377.svg",
+    "index.html": "/Mail-project/index.html",
+    "main.799b3d6b.css.map": "/Mail-project/static/css/main.799b3d6b.css.map",
+    "main.eb569566.js.map": "/Mail-project/static/js/main.eb569566.js.map",
+    "787.1493a40f.chunk.js.map": "/Mail-project/static/js/787.1493a40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.799b3d6b.css",
+    "static/js/main.eb569566.js"
+  ]
+}
