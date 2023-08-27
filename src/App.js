@@ -1,5 +1,5 @@
 import DeliveryInfo from "./components/DeliveryInfo";
-import emailImage from './assets/icons/mail-image.svg';
+import emailImage from './assets/icons/mail-Image.svg';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 
