@@ -1,7 +1,7 @@
 import DeliveryInfo from "./components/DeliveryInfo";
 import emailImage from './assets/icons/mail-image.svg';
-import addessImage from './assets/icons/address-image.svg';
-import courierImage from './assets/icons/courier-image.svg'
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <div className="h-14 bg-pink-600 shadow rounded mx-auto max-w-2xl" />
       </header>
       <main className="grid items-center mx-auto rounded bg-white shadow gap-6 p-6 max-w-2xl" >
-        <img alt="accepted cv" src={emailImage} className="mx-auto w-56 h-56"/>
+        <img alt="accepted cv" src={emailImage} className="mx-auto"/>
         <h2 className="font-semibold">Job inventation accepted</h2>
         <p className="text-gray-700">Dear firstname,</p>
         <p className="text-gray-700"> 
@@ -18,13 +18,13 @@ function App() {
         </p>
         <p className="text-gray-700">Here are the details of the accepted job invitation:</p>
         <DeliveryInfo 
-          image={addessImage}
+          image={faHouse}
           title='Business: Simple Kitchen'
           info='4517 Washington Ave. Manchester, Kentucky 39495'
         />
         <hr className="gap-0"/>
         <DeliveryInfo 
-          image={courierImage}
+          image={faUser}
           title='Courier'
           info='Courier Name'
         />
