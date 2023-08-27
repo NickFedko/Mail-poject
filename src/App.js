@@ -17,13 +17,15 @@ function App() {
           we are delighted to inform you that your job invitation has been accepted by your employee. This is an exciting step forward in building your team and achieving your business goals.
         </p>
         <p className="text-gray-700">Here are the details of the accepted job invitation:</p>
-        <DeliveryInfo 
+        <DeliveryInfo
+          marg={'mb-0 pb-0'} 
           image={faHouse}
           title='Business: Simple Kitchen'
           info='4517 Washington Ave. Manchester, Kentucky 39495'
         />
-        <hr className="gap-0"/>
+        <hr/>
         <DeliveryInfo 
+          marg={'mt-0 pt-0'}
           image={faUser}
           title='Courier'
           info='Courier Name'
