@@ -1,10 +1,10 @@
 export default function DeliveryInfo({image, title, info}) {
     return (
-        <div className="text-sm text-gray-700 grid grid-cols-2"  style={{gridTemplateColumns: '1fr 10fr', gridGap: '0'}}> 
-            <img alt='delivery-info' src={image}/>
-            <div className>
-                <p>{title}</p>
-                <p style={{color: '#7C7C7C'}}>{info}</p>
+        <div className="text-sm grid grid-cols-12"> 
+            <img alt="delivery-info" src={image} className="w-6 h-6"/>
+            <div className="col-span-11">
+                <p className="text-gray-700">{title}</p>
+                <p className="text-gray-500">{info}</p>
             </div>
         </div>
     )
