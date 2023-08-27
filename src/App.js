@@ -5,8 +5,8 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
-    <div className="App grid gap-6 items-startcd bg-gray-200 h-screen">
-      <header className="mt-6">
+    <div className="App bg-gray-200 bg-contain h-screen pt-6" >
+      <header className="mb-6">
         <div className="h-14 bg-pink-600 shadow rounded mx-auto max-w-2xl" />
       </header>
       <main className="grid items-center mx-auto rounded bg-white shadow gap-6 p-6 max-w-2xl" >
